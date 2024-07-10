@@ -7,12 +7,14 @@ import errorImg from "../assets/error.png";
 import Header from "./Header";
 import { Link } from "react-router-dom";
 import JobData from "../models/JobData";
-import { addJob, getAllJobs } from "../services/jobFromDbService";
+import { addJob } from "../services/jobFromDbService";
+import userContext from "../context/UserContext";
 
 const JobBoard = () => {
   const [selectedJobId, setSelectedJobId] = useState<number | null>(null);
 
   const { jobList } = useContext(jobListContext);
+  const { account } = useContext(userContext);
 
   const knowMore = (jobId: number) => {
     setSelectedJobId(jobId);
@@ -77,6 +79,7 @@ const JobBoard = () => {
                         jobGeo: job.jobGeo,
                         jobURL: job.url,
                         status: "applied",
+                        accountId: account?._id!,
                       };
                       addJobToDb(jobApplied);
                     }}

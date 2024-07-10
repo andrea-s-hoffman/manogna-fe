@@ -1,6 +1,4 @@
-import JobData from "./JobData";
-
 export default interface UserData {
-  userId: string;
-  jobsList: JobData[];
+  _id?: string;
+  uid: string;
 }
