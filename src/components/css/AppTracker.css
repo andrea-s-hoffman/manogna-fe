@@ -1,0 +1,62 @@
+.kanban {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: #070a24;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.job-details {
+  background-color: aliceblue;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #f54a89;
+  border-radius: 15px;
+}
+
+.applied {
+  background-color: rgb(180, 202, 245);
+}
+
+.interviewed {
+  background-color: #e3f9f8;
+}
+
+.offered {
+  background-color: #f0f9cc;
+}
+
+.rejected {
+  background-color: #f8c7e7;
+}
+
+.column {
+  flex: 20%;
+  border-right: 1px dotted rgb(65, 124, 244);
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.job-details button {
+  margin: 5px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.job-details a {
+  font-weight: bold;
+  color: #f54a89;
+  cursor: pointer;
+}
+
+.job-details button:hover {
+  margin: 5px;
+  background-color: #cbfb04;
+  color: rgb(4, 4, 4);
+}

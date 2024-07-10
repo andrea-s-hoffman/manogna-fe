@@ -1,0 +1,89 @@
+{
+  "industries": [
+    {
+      "industryID": 194,
+      "industryName": "Business Development",
+      "industrySlug": "business"
+    },
+    {
+      "industryID": 422,
+      "industryName": "Copywriting & Content",
+      "industrySlug": "copywriting"
+    },
+    {
+      "industryID": 192,
+      "industryName": "Customer Success",
+      "industrySlug": "supporting"
+    },
+    {
+      "industryID": 3037,
+      "industryName": "Data Science",
+      "industrySlug": "data-science"
+    },
+    {
+      "industryID": 276,
+      "industryName": "Design & Creative",
+      "industrySlug": "design-multimedia"
+    },
+    {
+      "industryID": 178,
+      "industryName": "DevOps & SysAdmin",
+      "industrySlug": "admin"
+    },
+    {
+      "industryID": 265,
+      "industryName": "Finance & Legal",
+      "industrySlug": "accounting-finance"
+    },
+    {
+      "industryID": 421,
+      "industryName": "HR & Recruiting",
+      "industrySlug": "hr"
+    },
+    {
+      "industryID": 185,
+      "industryName": "Marketing & Sales",
+      "industrySlug": "marketing"
+    },
+    {
+      "industryID": 225,
+      "industryName": "Product & Operations",
+      "industrySlug": "management"
+    },
+    {
+      "industryID": 148,
+      "industryName": "Programming",
+      "industrySlug": "dev"
+    },
+    {
+      "industryID": 1738,
+      "industryName": "Sales",
+      "industrySlug": "seller"
+    },
+    {
+      "industryID": 1737,
+      "industryName": "SEO",
+      "industrySlug": "seo"
+    },
+    {
+      "industryID": 1739,
+      "industryName": "Social Media Marketing",
+      "industrySlug": "smm"
+    },
+    {
+      "industryID": 810,
+      "industryName": "Software Engineering",
+      "industrySlug": "engineering"
+    },
+    {
+      "industryID": 1597,
+      "industryName": "Technical Support",
+      "industrySlug": "technical-support"
+    },
+    {
+      "industryID": 1583,
+      "industryName": "Web & App Design",
+      "industrySlug": "web-app-design"
+    }
+  ]
+}

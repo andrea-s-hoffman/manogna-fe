@@ -1,0 +1,36 @@
+#img-container {
+  background: #040b24;
+  width: fit-content;
+  margin: 30px auto 30px auto;
+  box-shadow: 1px 1px 3px 1px #f54a89 inset;
+  border-radius: 50%;
+}
+
+#img-container img {
+  width: 320px;
+  height: 250px;
+}
+
+.Home button {
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 30px;
+  background-color: #040b24;
+  color: aliceblue;
+}
+
+.Home button:hover {
+  background-color: #cbfb04;
+  color: #040b24;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.Home span {
+  color: #cbfb04;
+  background-color: #040b24;
+  padding: 3px;
+}

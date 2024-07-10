@@ -1,0 +1,60 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.filters h3 {
+  margin-left: 20px;
+}
+
+.filters form {
+  margin: 15px;
+}
+
+.filters label {
+  font-weight: bold;
+  display: block;
+}
+
+.filters select {
+  display: block;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 1px 1px #ff4a8b;
+}
+
+.filters input {
+  display: block;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 1px 1px #ff4a8b;
+  width: 230px;
+}
+
+.filters button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.filters button:hover {
+  background-color: #cbfb04;
+  color: black;
+}
+
+.filters img {
+  width: 60%;
+  margin: 0;
+  height: auto;
+}

@@ -1,0 +1,106 @@
+.jobBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.job-card {
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #f54a89;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#sherpa-theme {
+  width: 100%;
+}
+
+.job-card h3 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.job-card p {
+  text-align: left;
+  padding: 10px;
+}
+
+.job-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 1px 1px black;
+}
+
+.job-card button {
+  margin: 5px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.job-card button:hover {
+  margin: 5px;
+  background-color: #cbfb04;
+  color: rgb(4, 4, 4);
+}
+
+.know-more {
+  position: fixed;
+  top: 10%;
+  left: 8%;
+  background-color: rgb(255, 255, 240);
+  border: 1px solid black;
+  height: 80%;
+  width: 80%;
+  padding: 20px;
+  text-align: left;
+  overflow-y: scroll !important;
+}
+
+.know-more h3,
+h2 {
+  text-align: center;
+}
+
+.know-more button {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.know-more button:hover {
+  background-color: rgb(65, 124, 244);
+  color: rgb(246, 245, 245);
+}
+
+.error-container {
+  width: 70vw;
+  margin: auto;
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error-container p {
+  text-align: center;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.error-container img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  padding: 0 0 20px 0;
+}
