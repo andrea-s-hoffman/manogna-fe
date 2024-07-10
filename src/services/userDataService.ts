@@ -1,5 +1,4 @@
 import axios from "axios";
-import JobData from "../models/JobData";
 import UserData from "../models/UserData";
 
 const baseURL: string = import.meta.env.VITE_BASE_URL || "BASE URL NOT FOUND";

@@ -33,6 +33,7 @@ const AppTracker = () => {
     newJob.status = newStatus;
     // const id = newJob._id;
 
+    // PUT request - updating the DB, then DB updates state variable
     updateJob(newJob).then(() => {
       getUserJobs(account?._id!).then((res) => {
         if (res) setAccountJobs(res);

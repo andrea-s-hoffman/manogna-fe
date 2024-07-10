@@ -8,5 +8,5 @@ export default interface JobData {
   status?: string;
   timeApplied?: string;
   notes?: string;
-  accountId: string;
+  accountId: string; // account._id as string
 }
